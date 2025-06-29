@@ -9,7 +9,7 @@ import pymongo
 from motor.motor_asyncio import AsyncIOMotorClient
 from dotenv import load_dotenv
 import logging
-from models.schemas import get_schema_validation_commands
+from ..models.schemas import get_schema_validation_commands
 
 # Configure logging
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")

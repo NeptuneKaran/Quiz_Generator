@@ -3,8 +3,8 @@ from fastapi.responses import JSONResponse, Response
 from pydantic import BaseModel
 from bson import ObjectId, json_util
 import json
-from controllers.quiz_controller import LectureController, QuizController
-from models.models import LectureModel, QuizModel
+from api.controllers.quiz_controller import LectureController, QuizController
+from api.models.models import LectureModel, QuizModel
 from typing import Dict, Any
 
 router = APIRouter()

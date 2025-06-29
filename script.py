@@ -4,7 +4,7 @@ from typing import Dict, Any
 from dotenv import load_dotenv
 import litellm
 import time
-from models import Quiz
+from api.models.models import QuizModel
 import json
 load_dotenv()
 import sys

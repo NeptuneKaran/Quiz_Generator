@@ -6,7 +6,7 @@ import logging
 from bson import ObjectId
 from datetime import datetime
 from fastapi import HTTPException
-from config.database import Database
+from api.config.database import Database
 from dotenv import load_dotenv
 
 # Load environment variables
